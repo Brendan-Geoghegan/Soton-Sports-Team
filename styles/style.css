@@ -41,7 +41,12 @@ footer {
 
 article img {
     position: relative;
-    top
+    top: 30px;
+    left: 30px;
+}
+
+article img:hover {
+    border: solid black 2px;
 }
 
 header h1 {
@@ -56,7 +61,7 @@ th {
     border: solid red 2px;
 }
 
-.number {
+.team_number {
     color: red;
     font-weight: bold;
     text-align: center;
