@@ -5,12 +5,17 @@
     grid-template-rows: 25% 25% 25% 25%;
     background-color: darkgreen;
     display: grid;
+    align-items: center;
+    padding: 20px 40px 20px 40px;
+    margin: auto;
 }
 .number{
     text-align: center;
     align-items: center;
     padding: 20px 40px 20px 40px;
     margin: auto;
+    color: white;
+    text-shadow: black 2px 2px 2px;
 }
 
 #player1{
