@@ -1,0 +1,113 @@
+#team{
+    width:400px;
+    height:300px;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 25% 25% 25% 25%;
+    background-color: darkgreen;
+    display: grid;
+}
+.number{
+    text-align: center;
+    align-items: center;
+    padding: 20px 40px 20px 40px;
+    margin: auto;
+}
+
+#player1{
+    background-color: grey;
+    border: solid black 2px;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+
+#player2{
+    background-color: darkred;
+    border: solid black 2px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+#player3{
+    background-color: darkred;
+    border: solid black 2px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+#player4{
+    background-color: darkred;
+    border: solid black 2px;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+#player5{
+    background-color: darkred;
+    border: solid black 2px;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+#player6{
+    background-color: darkred;
+    border: solid black 2px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+#player7{
+    background-color: darkred;
+    border: solid black 2px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+#player8{
+    background-color: darkred;
+    border: solid black 2px;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+#player9{
+    background-color: darkred;
+    border: solid black 2px;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+#player10{
+    background-color: darkred;
+    border: solid black 2px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+#player11{
+    background-color: darkred;
+    border: solid black 2px;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
